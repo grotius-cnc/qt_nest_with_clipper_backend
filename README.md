@@ -16,8 +16,11 @@ Orginal picture :
 ![alt text](https://raw.githubusercontent.com/grotius-cnc/QT_Nest_with_clipper_backend/master/test.png)
 
 
-Installation guide for 2 dependencies, when you have problems.
-If the make fails, start again with a clean directory.
+If the git clone does not work imidiately on linux 64 bit, follow these steps:
+
+- Installation guide for 2 dependencies, when you have problems.
+
+Info: If the "cmake" command fails, start again with a clean directory.
 
 This project is a orginal git clone off : https://github.com/tamasmeszaros/libnest2d.git
 
