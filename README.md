@@ -19,7 +19,7 @@ Orginal picture :
 If the git clone does not work imidiately on linux 64 bit, follow these steps:
 
 - Installation guide for 2 dependencies, when you have problems.
-- Put the downloads just as the current qt project directory structure for clipper and nlopt, the header files are searching in that area.
+- Put the downloads just as the current qt project directory structure for clipper and nlopt, some of the header files are searching in that area.
 
 Info: If the "cmake" command fails, start again with a clean directory.
 
