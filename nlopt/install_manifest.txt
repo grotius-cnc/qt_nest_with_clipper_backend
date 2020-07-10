@@ -1,0 +1,14 @@
+/home/user/QT_Nest/nlopt/lib/pkgconfig/nlopt.pc
+/home/user/QT_Nest/nlopt/include/nlopt.h
+/home/user/QT_Nest/nlopt/include/nlopt.hpp
+/home/user/QT_Nest/nlopt/include/nlopt.f
+/home/user/QT_Nest/nlopt/lib/libnlopt.so.0.10.0
+/home/user/QT_Nest/nlopt/lib/libnlopt.so.0
+/home/user/QT_Nest/nlopt/lib/libnlopt.so
+/home/user/QT_Nest/nlopt/lib/cmake/nlopt/NLoptLibraryDepends.cmake
+/home/user/QT_Nest/nlopt/lib/cmake/nlopt/NLoptLibraryDepends-release.cmake
+/home/user/QT_Nest/nlopt/lib/cmake/nlopt/NLoptConfig.cmake
+/home/user/QT_Nest/nlopt/lib/cmake/nlopt/NLoptConfigVersion.cmake
+/home/user/QT_Nest/nlopt/share/man/man3/nlopt.3
+/home/user/QT_Nest/nlopt/share/man/man3/nlopt_minimize.3
+/home/user/QT_Nest/nlopt/share/man/man3/nlopt_minimize_constrained.3
