@@ -46,8 +46,8 @@ download the zip from : https://sourceforge.net/projects/polyclipping/
         3. make install
 
 Link the libraries in the qt .pro file like :
-LIBS +=	-L$$PWD/clipper/ -lpolyclipping \
-        -L$$PWD/nlopt/ -lnlopt
+        LIBS +=	-L$$PWD/clipper/ -lpolyclipping \
+                -L$$PWD/nlopt/ -lnlopt
         
 The nesting program is tested on Debian 10, with QT installation :
 Qt Creator 4.12.3,
