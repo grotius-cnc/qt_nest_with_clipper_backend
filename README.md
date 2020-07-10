@@ -7,16 +7,6 @@ In the Mainwindow.cpp we have a test box that is nested in total 3+1 times.
 Keep the contour input clockwise cw.
 The input startpoint must be the same as the input endpoint.
 
-   std::vector<Item> input1(3, //this means nest the box 3 times.
-    {
-                                 {0, 0},    //box start
-                                 {0, 100},
-                                 {100, 100},
-                                 {100, 0},
-                                 {0, 0},    //box end=start
-
-                             });
-
 Nesting output :
 ![alt text](https://raw.githubusercontent.com/grotius-cnc/QT_Nest_with_clipper_backend/master/nest_test.png)
 
