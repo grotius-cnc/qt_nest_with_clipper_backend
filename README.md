@@ -8,10 +8,14 @@ Keep the contour input clockwise cw.
 The input startpoint must be the same as the input endpoint.
 
 Nesting output :
+
 ![alt text](https://raw.githubusercontent.com/grotius-cnc/QT_Nest_with_clipper_backend/master/nest_test.png)
 
 Orginal picture :
+
 ![alt text](https://raw.githubusercontent.com/grotius-cnc/QT_Nest_with_clipper_backend/master/test.png)
+
+
 Installation guide for 2 dependencies, when you have problems.
 If the make fails, start again with a clean directory.
 
