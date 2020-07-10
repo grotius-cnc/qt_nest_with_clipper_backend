@@ -1,0 +1,7 @@
+/home/user/QT_Nest/clipper/cpp/CMakeFiles/install/strip.dir
+/home/user/QT_Nest/clipper/cpp/CMakeFiles/edit_cache.dir
+/home/user/QT_Nest/clipper/cpp/CMakeFiles/install.dir
+/home/user/QT_Nest/clipper/cpp/CMakeFiles/rebuild_cache.dir
+/home/user/QT_Nest/clipper/cpp/CMakeFiles/list_install_components.dir
+/home/user/QT_Nest/clipper/cpp/CMakeFiles/polyclipping.dir
+/home/user/QT_Nest/clipper/cpp/CMakeFiles/install/local.dir

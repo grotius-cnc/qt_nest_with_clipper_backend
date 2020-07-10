@@ -1,0 +1,5 @@
+/home/user/QT_Nest/clipper/include/polyclipping/clipper.hpp
+/home/user/QT_Nest/clipper/lib/libpolyclipping.so.22.0.0
+/home/user/QT_Nest/clipper/lib/libpolyclipping.so.22
+/home/user/QT_Nest/clipper/lib/libpolyclipping.so
+/home/user/QT_Nest/clipper/share/pkgconfig/polyclipping.pc
