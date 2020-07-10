@@ -41,9 +41,9 @@ download the zip from : https://sourceforge.net/projects/polyclipping/
 2.cd cpp
 3.in terminal :
 
-a.cmake -DCMAKE_INSTALL_PREFIX=/home/user/QT_Nest/clipper/  "change to your directory adres"
-b.make
-c.make install
+        1. cmake -DCMAKE_INSTALL_PREFIX=/home/user/QT_Nest/clipper/  "change to your directory adres"
+        2. make
+        3. make install
 
 Link the libraries in the qt .pro file like :
 LIBS +=	-L$$PWD/clipper/ -lpolyclipping \
