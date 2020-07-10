@@ -1,0 +1,13 @@
+prefix=/home/user/QT_Nest/clipper
+exec_prefix=/home/user/QT_Nest/clipper
+libdir=/home/user/QT_Nest/clipper/lib
+sharedlibdir=/home/user/QT_Nest/clipper/lib
+includedir=/home/user/QT_Nest/clipper/include/polyclipping
+
+Name: polyclipping
+Description: polygon clipping library
+Version: 
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lpolyclipping
+Cflags: -I${includedir}
