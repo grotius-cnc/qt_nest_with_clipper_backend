@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/user/QT_Nest/nlopt/test/t_tutorial.cxx
+iostream
+-
+vector
+-
+iomanip
+-
+nlopt.hpp
+-
+
+nlopt.hpp
+nlopt.h
+-
+vector
+-
+stdexcept
+-
+new
+-
+cstdlib
+-
+cstring
+-
+cmath
+-
+
+src/api/nlopt.h
+stddef.h
+-
+
