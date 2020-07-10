@@ -28,29 +28,30 @@ documentation : https://nlopt.readthedocs.io/en/latest/NLopt_Installation/
 1. git clone https://github.com/stevengj/nlopt.git
 2. in the nlopt directory open terminal :
 
-cmake -DCMAKE_INSTALL_PREFIX=/home/user/QT_Nest/nlopt/   "change to your directory adres"
-make
-make install
-
+        a. cmake -DCMAKE_INSTALL_PREFIX=/home/user/QT_Nest/nlopt/   "change to your directory adres"
+        b. make
+        c. make install
 
 for the clipper library :
 
 download the zip from : https://sourceforge.net/projects/polyclipping/
+1. unzip the package.
+2. cd cpp
+3. in terminal :
 
-1.unzip the package.
-2.cd cpp
-3.in terminal :
-
-        1. cmake -DCMAKE_INSTALL_PREFIX=/home/user/QT_Nest/clipper/  "change to your directory adres"
-        2. make
-        3. make install
+        a. cmake -DCMAKE_INSTALL_PREFIX=/home/user/QT_Nest/clipper/  "change to your directory adres"
+        b. make
+        c. make install
 
 Link the libraries in the qt .pro file like :
+
         LIBS +=	-L$$PWD/clipper/ -lpolyclipping \
                 -L$$PWD/nlopt/ -lnlopt
         
-The nesting program is tested on Debian 10, with QT installation :
-Qt Creator 4.12.3,
-Based on Qt 5.14.2 (GCC 5.3.1 20160406 (Red Hat 5.3.1-6), 64 bit)
-Built on Jun 16 2020 04:15:35
-From revision 48e46132e3
+The nesting program is tested on:
+
+        Debian 10, with QT installation 
+        Qt Creator 4.12.3,
+        Based on Qt 5.14.2 (GCC 5.3.1 20160406 (Red Hat 5.3.1-6), 64 bit)
+        Built on Jun 16 2020 04:15:35
+        From revision 48e46132e3
