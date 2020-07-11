@@ -59,3 +59,39 @@ The nesting program is tested on:
         Based on Qt 5.14.2 (GCC 5.3.1 20160406 (Red Hat 5.3.1-6), 64 bit)
         Built on Jun 16 2020 04:15:35
         From revision 48e46132e3
+
+
+
+
+data input based on integer xy coordinates example:
+
+    std::vector<Item> input; //contour container
+
+    ClipperLib::IntPoint point; //clipper point xy container
+    int x=0;
+    int y=0;
+    point={x,y};
+    ClipperLib::Polygon poly; //clipper polygon container
+    poly.Contour.push_back(point); //add point to polygon
+
+    x=0; //second point
+    y=100;
+    point={x,y};
+    poly.Contour.push_back(point);
+
+    x=100; //third point
+    y=100;
+    point={x,y};
+    poly.Contour.push_back(point);
+
+    x=100; //fourth point
+    y=0;
+    point={x,y};
+    poly.Contour.push_back(point);
+
+    x=0; //the enpoint must be the same as the startpoint to close the contour for clipper
+    y=0;
+    point={x,y};
+    poly.Contour.push_back(point);
+
+    input.push_back({poly.Contour}); //add the polygon to the contour container
