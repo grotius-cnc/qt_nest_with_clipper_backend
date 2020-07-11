@@ -95,3 +95,41 @@ data input based on integer xy coordinates example:
     poly.Contour.push_back(point);
 
     input.push_back({poly.Contour}); //add the polygon to the contour container
+    
+        ClipperLib::Polygon pol;
+    pol.Contour.push_back({0,0});
+    pol.Contour.push_back({0,100});
+    pol.Contour.push_back({100,100});
+    pol.Contour.push_back({100,0});
+    pol.Contour.push_back({0,0});
+
+    input.push_back({{0,0},{0,100},{100,100},{100,0},{0,0}});
+    input.push_back({{0,0},{0,100},{100,100},{100,0},{0,0}});
+    input.push_back({pol.Contour});
+
+
+    std::vector<Item> inputs;
+    //input.insert(input.end(), input1.begin(), input1.end());
+    //input.insert(input.end(), test.begin(), test.end());
+    inputs.insert(inputs.end(), input.begin(), input.end());
+
+    // Perform the nesting with a box shaped bin
+    size_t bins = nest(inputs, Box(150000000, 150000000));
+
+    // Retrieve resulting geometries
+    for(Item& r : inputs) {
+        auto polygon = r.transformedShape();
+        // render polygon...
+
+        std::cout<<"r.begin.x"<<r.begin()->X<<std::endl;
+        std::cout<<"r.begin.y"<<r.begin()->Y<<std::endl;
+
+        std::cout<<"r.rotation degrees: "<<r.rotation().toDegrees()<<std::endl;
+
+        std::cout<<"translation.x"<< r.translation().X<<std::endl;
+        std::cout<<"translation.y"<< r.translation().Y<<std::endl;
+
+        std::cout<<"polygon.contour.begin.x"<<polygon.Contour.begin()->X<<std::endl;
+        std::cout<<"polygon.contour.begin.y"<<polygon.Contour.begin()->Y<<std::endl;
+
+    }
